@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="3dp"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        >
+
+
+
+
+        <ImageView
+            android:background="@drawable/background"
+            android:id="@+id/thumbnailImg"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_baseline_slow_motion_video_24"
+
+            />
+
+<!--        <TextView-->
+<!--            android:id="@+id/videoName"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_marginTop="3dp"-->
+<!--            android:layout_marginBottom="5dp"-->
+<!--            android:ellipsize="marquee"-->
+<!--            android:gravity="center"-->
+<!--            android:singleLine="true"-->
+<!--            android:text="Video name"-->
+<!--            android:textSize="16dp"-->
+<!--            android:textStyle="bold"-->
+<!--            />-->
+
+    </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
